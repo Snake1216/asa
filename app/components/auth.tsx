@@ -137,7 +137,7 @@ function TopBanner() {
       setIsVisible(true); // 显示横幅
     } else if (bannerDismissed === "true") {
       // 如果标记为 "true"，则隐藏横幅
-      setIsVisible(false);
+      setIsVisible(true);
     }
   }, []);
 
